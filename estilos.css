@@ -1,0 +1,95 @@
+html{
+    width: 1440px;
+    background-color: hsl(30, 54%, 90%);
+}
+h2{
+    text-align: left;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+      
+div.contenedor p{
+font-size: 16px;
+font-family: "Outfit", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+
+div.contenedor{
+background-color: white;
+/*margin: 0  auto;
+text-align: center;*/
+margin: 100px 300px ;
+border-radius: 20px;
+padding: 35px;
+text-align: justify;
+border: 100px;
+}
+
+div.contenedor ul{
+text-align: left;
+font-size: 16px;
+font-family: "Outfit", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+
+div.contenedor h3{
+color: hsl(14, 45%, 36%);
+text-align: left;
+font-family: "Young Serif", serif;
+font-weight: 400;
+font-style: normal;
+}
+
+div.contenedor img{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width:750px
+}
+
+div.contenedor2{
+    text-align: left;
+    margin:0px 0px ;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+}
+div.contenedor ol{
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul li::marker{
+    color: hsl(332, 51%, 32%);
+}
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+}
+table{
+    width: 60%;
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+table tr{
+    border: 0px 0px 1px 0px solid black;
+}
+
+th{
+    text-align: left;
+    font-weight: normal;
+}
+td{
+    text-align: right;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
